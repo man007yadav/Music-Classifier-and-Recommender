@@ -27,7 +27,7 @@ Using Discrete Fourier Transforms to convert the audio signals into the frequenc
 
 I chose to create monochrome spectrograms, like this one below:
 
-![](https://github.com/man007yadav/Music-Classifier-and-Recommender/tree/master/image/spectro.jpg)
+![](https://github.com/man007yadav/Music-Classifier-and-Recommender/blob/master/image/spectro.jpg)
 
 This is around 20 seconds of audio generated from a hip hop track. On the x-axis is time, and on the y-axis are the frequencies of the sound.
 
