@@ -45,7 +45,7 @@ I trained a CNN on my image data. I needed to teach it to recognise what the dif
 
 Below is a visualisation of the CNN pipeline:
 
-![]{https://github.com/man007yadav/Music-Classifier-and-Recommender/blob/master/image/cnn_pipeline.jpg}
+![](https://github.com/man007yadav/Music-Classifier-and-Recommender/blob/master/image/cnn_pipeline.jpg)
 
 
 Starting with the spectrogram image on the upper left hand side, the image is converted into a matrix of numbers representing the colours in each of the pixels. From there, the data passes through various layers in the pipeline and through each layer the shape of the matrix is transformed until it eventually reaches a softmax classifier in the bottom right hand corner. This is a vector of 9 numbers and contains the probabilities for each of the 9 music genres the CNN assigns to the image.
